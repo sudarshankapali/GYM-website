@@ -134,3 +134,57 @@ column-gap: 1rem;
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 1000px) {
+    .big{
+        font-size: 2.5rem;
+    }
+    .about-section-wrapper{
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .change-color{
+        color: var(--secondary-color);
+        text-align: center;
+    }
+    .about-section-wrapper > div:last-child{
+        display: grid;
+        grid-template-rows: 1fr 1fr 2fr 2fr 2fr;
+    }
+
+    /*end of about section*/
+.class-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    /* column-gap: 0.2rem; */
+}
+.card{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.card-color{
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+.class-description{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/*end of class section*/
+.pricing-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    row-gap: 1rem;
+}
+}
+@media only screen and (max-width: 600px){
+    .big{
+        font-size: 2rem;
+    }
+}
