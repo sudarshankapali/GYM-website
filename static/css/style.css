@@ -114,6 +114,10 @@ body{
     color: var(--primary-color);
     padding: 8px 10px;
 }
+.pricing-wrapper > .pricing-card-wrapper > .pricing-card > .logo{
+    max-width: 75px;
+    align-self: center;
+}
 /*end of pricing section*/
 footer{
     display: grid;
