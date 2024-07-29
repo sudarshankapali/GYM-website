@@ -95,7 +95,7 @@
      }
 
      /*end of about section*/
-     .class-section {
+     .class-description {
          font-size: 1.5rem;
      }
 
@@ -107,6 +107,7 @@
 
      .card {
          max-width: 350px;
+         font-size: 1.3rem;
      }
 
      .card-color {
@@ -116,6 +117,10 @@
      }
 
      /*End of class section*/
+     .pricing-wrapper {
+         font-size: 2rem;
+     }
+
      .pricing-wrapper>div:first-child {
          text-align: center;
      }
@@ -133,6 +138,10 @@
          box-shadow: 7px 8px 19px 0px rgba(0, 0, 0, 0.75);
          -webkit-box-shadow: 7px 8px 19px 0px rgba(0, 0, 0, 0.75);
          -moz-box-shadow: 7px 8px 19px 0px rgba(0, 0, 0, 0.75);
+     }
+
+     .logo {
+         min-width: 150px;
      }
 
      .pricing-card>div,
